@@ -22,7 +22,10 @@ export type Collection = {
 export type CollectionCardData = Pick<
   Collection,
   "id" | "handle" | "title" | "description" | "image" | "productCount"
->;
+> & {
+  accentBgColor?: string;
+  accentTextColor?: string;
+};
 
 export type CollectionGroup = {
   id: string;

@@ -10,9 +10,8 @@ export const products: Product[] = [
     price: 189,
     compareAtPrice: 249,
     images: [
-      { src: "/images/product-runner-1.jpg", alt: "Air Velocity Runner – side view" },
-      { src: "/images/product-runner-2.jpg", alt: "Air Velocity Runner – angle view" },
-      { src: "/images/product-runner-3.jpg", alt: "Air Velocity Runner – back view" },
+      { src: "https://images.unsplash.com/photo-1710553455491-482fa1751dc4?q=80&w=1171&auto=format&fit=crop", alt: "Air Velocity Runner – side view" },
+      { src: "https://images.unsplash.com/photo-1625515921520-ca6f70457641?w=600&auto=format&fit=crop", alt: "Air Velocity Runner – angle view" },
     ],
     variants: [
       { id: "p1-s-blk", title: "S / Black", sku: "AVR-S-BLK", price: 189, compareAtPrice: 249, available: true, size: "S", color: "Black", colorHex: "#000000" },
@@ -44,8 +43,8 @@ export const products: Product[] = [
     price: 219,
     compareAtPrice: null,
     images: [
-      { src: "/images/product-stride-1.jpg", alt: "Stride Pro Max – front view" },
-      { src: "/images/product-stride-2.jpg", alt: "Stride Pro Max – side view" },
+      { src: "https://images.unsplash.com/photo-1606890542131-31d8d6681f2f?w=600&auto=format&fit=crop", alt: "Stride Pro Max – front view" },
+      { src: "https://images.unsplash.com/photo-1657801566558-23dcdee5a7b5?w=600&auto=format&fit=crop", alt: "Stride Pro Max – side view" },
     ],
     variants: [
       { id: "p2-m-gry", title: "M / Grey", sku: "SPM-M-GRY", price: 219, compareAtPrice: null, available: true, size: "M", color: "Grey", colorHex: "#6b7280" },
@@ -74,8 +73,8 @@ export const products: Product[] = [
     price: 149,
     compareAtPrice: 179,
     images: [
-      { src: "/images/product-flex-1.jpg", alt: "Flex Knit Trainer – angle view" },
-      { src: "/images/product-flex-2.jpg", alt: "Flex Knit Trainer – side view" },
+      { src: "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?q=80&w=1025&auto=format&fit=crop", alt: "Flex Knit Trainer – angle view" },
+      { src: "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?q=80&w=1025&auto=format&fit=crop", alt: "Flex Knit Trainer – side view" },
     ],
     variants: [
       { id: "p3-m-blk", title: "M / Black", sku: "FKT-M-BLK", price: 149, compareAtPrice: 179, available: true, size: "M", color: "Black", colorHex: "#000000" },
@@ -103,9 +102,8 @@ export const products: Product[] = [
     price: 259,
     compareAtPrice: null,
     images: [
-      { src: "/images/product-trail-1.jpg", alt: "Trail Blazer GTX – front view" },
-      { src: "/images/product-trail-2.jpg", alt: "Trail Blazer GTX – side view" },
-      { src: "/images/product-trail-3.jpg", alt: "Trail Blazer GTX – tread detail" },
+      { src: "https://images.unsplash.com/photo-1608667508764-33cf0726b13a?q=80&w=2080&auto=format&fit=crop", alt: "Trail Blazer GTX – front view" },
+      { src: "https://images.unsplash.com/photo-1608666634759-4376010f863d?q=80&w=2080&auto=format&fit=crop", alt: "Trail Blazer GTX – side view" },
     ],
     variants: [
       { id: "p4-m-brn", title: "M / Brown", sku: "TBG-M-BRN", price: 259, compareAtPrice: null, available: true, size: "M", color: "Brown", colorHex: "#7c3f1d" },
@@ -134,8 +132,8 @@ export const products: Product[] = [
     price: 299,
     compareAtPrice: 349,
     images: [
-      { src: "/images/product-speedlite-1.jpg", alt: "SpeedLite Elite – profile view" },
-      { src: "/images/product-speedlite-2.jpg", alt: "SpeedLite Elite – sole detail" },
+      { src: "https://images.unsplash.com/photo-1606890542166-00bad9f493ee?q=80&w=764&auto=format&fit=crop", alt: "SpeedLite Elite – profile view" },
+      { src: "https://images.unsplash.com/photo-1603787081437-4545da1c094f?w=600&auto=format&fit=crop", alt: "SpeedLite Elite – sole detail" },
     ],
     variants: [
       { id: "p5-m-wht", title: "M / White", sku: "SLE-M-WHT", price: 299, compareAtPrice: 349, available: true, size: "M", color: "White", colorHex: "#ffffff" },
@@ -164,8 +162,8 @@ export const products: Product[] = [
     price: 79,
     compareAtPrice: null,
     images: [
-      { src: "/images/product-jogger-1.jpg", alt: "Core Jogger Sweatpant – front view" },
-      { src: "/images/product-jogger-2.jpg", alt: "Core Jogger Sweatpant – detail view" },
+      { src: "https://images.unsplash.com/photo-1704900264036-26bb66daa464?w=600&auto=format&fit=crop", alt: "Core Jogger Sweatpant – front view" },
+      { src: "https://images.unsplash.com/photo-1704900264242-717c2eab3cbd?w=600&auto=format&fit=crop", alt: "Core Jogger Sweatpant – detail view" },
     ],
     variants: [
       { id: "p6-s-blk", title: "S / Black", sku: "CJS-S-BLK", price: 79, compareAtPrice: null, available: true, size: "S", color: "Black", colorHex: "#000000" },
@@ -194,8 +192,8 @@ export const products: Product[] = [
     price: 49,
     compareAtPrice: 59,
     images: [
-      { src: "/images/product-tee-1.jpg", alt: "Aero Dri-Fit Tee – front view" },
-      { src: "/images/product-tee-2.jpg", alt: "Aero Dri-Fit Tee – back view" },
+      { src: "https://images.unsplash.com/photo-1687444365871-a2e06ff2295a?w=600&auto=format&fit=crop", alt: "Aero Dri-Fit Tee – front view" },
+      { src: "https://images.unsplash.com/photo-1687444275881-b5ec0e34163d?w=600&auto=format&fit=crop", alt: "Aero Dri-Fit Tee – back view" },
     ],
     variants: [
       { id: "p7-s-wht", title: "S / White", sku: "ADT-S-WHT", price: 49, compareAtPrice: 59, available: true, size: "S", color: "White", colorHex: "#ffffff" },
@@ -224,8 +222,8 @@ export const products: Product[] = [
     price: 69,
     compareAtPrice: null,
     images: [
-      { src: "/images/product-short-1.jpg", alt: "Stride 2-in-1 Short – front view" },
-      { src: "/images/product-short-2.jpg", alt: "Stride 2-in-1 Short – pocket detail" },
+      { src: "https://images.unsplash.com/photo-1594101173594-b4dc450c64b8?w=600&auto=format&fit=crop", alt: "Stride 2-in-1 Short – front view" },
+      { src: "https://images.unsplash.com/photo-1594101226350-4793a5b5e048?q=80&w=687&auto=format&fit=crop", alt: "Stride 2-in-1 Short – pocket detail" },
     ],
     variants: [
       { id: "p8-s-blk", title: "S / Black", sku: "S2S-S-BLK", price: 69, compareAtPrice: null, available: true, size: "S", color: "Black", colorHex: "#000000" },
@@ -253,8 +251,8 @@ export const products: Product[] = [
     price: 59,
     compareAtPrice: null,
     images: [
-      { src: "/images/product-slide-1.jpg", alt: "Recovery Slide Sandal – top view" },
-      { src: "/images/product-slide-2.jpg", alt: "Recovery Slide Sandal – side view" },
+      { src: "https://images.unsplash.com/photo-1547586877-0351a7143cbe?w=600&auto=format&fit=crop", alt: "Recovery Slide Sandal – top view" },
+      { src: "https://images.unsplash.com/photo-1491553895911-0055eca6402d?q=80&w=1170&auto=format&fit=crop", alt: "Recovery Slide Sandal – side view" },
     ],
     variants: [
       { id: "p9-m-blk", title: "M / Black", sku: "RSS-M-BLK", price: 59, compareAtPrice: null, available: true, size: "M", color: "Black", colorHex: "#000000" },
@@ -281,7 +279,8 @@ export const products: Product[] = [
     price: 39,
     compareAtPrice: 45,
     images: [
-      { src: "/images/product-bottle-1.jpg", alt: "HydroFast 750ml Bottle – front view" },
+      { src: "https://images.unsplash.com/photo-1605034313761-73ea4a0cfbf3?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "HydroFast 750ml Bottle – front view" },
+      { src: "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDc1fHx8ZW58MHx8fHx8", alt: "HydroFast 750ml Bottle – alternative view" },
     ],
     variants: [
       { id: "p10-one-blk", title: "One Size / Black", sku: "HFB-OS-BLK", price: 39, compareAtPrice: 45, available: true, size: "One Size", color: "Black", colorHex: "#000000" },
@@ -299,7 +298,69 @@ export const products: Product[] = [
     ],
     createdAt: "2026-01-15",
   },
+  {
+    id: "p11",
+    handle: "new-balance-fresh-foam-x-1080v14",
+    title: "Fresh Foam X 1080v14",
+    description:
+      "The latest evolution of New Balance's flagship running shoe, featuring Fresh Foam X cushioning for exceptional comfort, engineered mesh for breathability, and a redesigned outsole for smoother transitions during every run.",
+    price: 189,
+    compareAtPrice: 219,
+    images: [
+      { src: "https://images.unsplash.com/photo-1685273407542-85c1a354850b?q=80&w=764&auto=format&fit=crop", alt: "Fresh Foam X 1080v14 – side view" },
+      { src: "https://images.unsplash.com/photo-1723740220352-b9a6e7552149?w=600&auto=format&fit=crop", alt: "Fresh Foam X 1080v14 – top view" },
+    ],
+    variants: [
+      { id: "p11-8-gry", title: "US 8 / Grey", sku: "NB1080-8-GRY", price: 189, compareAtPrice: 219, available: true, size: "US 8", color: "Grey", colorHex: "#6b7280" },
+      { id: "p11-9-gry", title: "US 9 / Grey", sku: "NB1080-9-GRY", price: 189, compareAtPrice: 219, available: true, size: "US 9", color: "Grey", colorHex: "#6b7280" },
+      { id: "p11-10-nvy", title: "US 10 / Navy", sku: "NB1080-10-NVY", price: 189, compareAtPrice: 219, available: true, size: "US 10", color: "Navy", colorHex: "#1e3a5f" },
+      { id: "p11-11-blk", title: "US 11 / Black", sku: "NB1080-11-BLK", price: 189, compareAtPrice: 219, available: true, size: "US 11", color: "Black", colorHex: "#000000" },
+    ],
+    badges: ["new"],
+    tags: ["footwear", "running", "men", "new-balance"],
+    category: "footwear",
+    collection: "running",
+    rating: 4.8,
+    reviewCount: 326,
+    reviews: [
+      { id: "r21", author: "Daniel P.", rating: 5, title: "Super comfortable", body: "Perfect for daily training and long runs. Cushioning feels amazing.", date: "2026-04-15" },
+    ],
+    createdAt: "2026-01-18",
+  },
+  {
+    id: "p12",
+    handle: "woodland-trekker-pro",
+    title: "Woodland Trekker Pro",
+    description:
+      "A rugged outdoor shoe built for hiking and everyday adventure. Features premium leather construction, deep-grip rubber outsole, water-resistant protection, and all-day comfort on challenging terrain.",
+    price: 129,
+    compareAtPrice: 159,
+    images: [
+      { src: "https://images.unsplash.com/photo-1667314614474-79460e9eef88?q=80&w=700&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dh", alt: "Woodland Trekker Pro – side view" },
+      { src: "https://images.unsplash.com/photo-1667314614949-e7e45c8074fd?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Woodland Trekker Pro – alternative field view" },
+    ],
+    variants: [
+      { id: "p12-8-brn", title: "US 8 / Brown", sku: "WTP-8-BRN", price: 129, compareAtPrice: 159, available: true, size: "US 8", color: "Brown", colorHex: "#7c4a21" },
+      { id: "p12-9-brn", title: "US 9 / Brown", sku: "WTP-9-BRN", price: 129, compareAtPrice: 159, available: true, size: "US 9", color: "Brown", colorHex: "#7c4a21" },
+      { id: "p12-10-olv", title: "US 10 / Olive", sku: "WTP-10-OLV", price: 129, compareAtPrice: 159, available: true, size: "US 10", color: "Olive", colorHex: "#556b2f" },
+      { id: "p12-11-blk", title: "US 11 / Black", sku: "WTP-11-BLK", price: 129, compareAtPrice: 159, available: true, size: "US 11", color: "Black", colorHex: "#000000" },
+    ],
+    badges: ["new"],
+    tags: ["footwear", "hiking", "outdoor", "woodland"],
+    category: "footwear",
+    collection: "outdoor",
+    rating: 4.6,
+    reviewCount: 184,
+    reviews: [
+      { id: "r22", author: "Rahul K.", rating: 5, title: "Built like a tank", body: "Excellent grip and durability for trekking and rough terrain.", date: "2026-05-10" },
+    ],
+    createdAt: "2026-02-12",
+  },
 ];
+
+/* ==========================================
+   DATA ACCESS SELECTORS & UTILITIES
+   ========================================== */
 
 export function getProductByHandle(handle: string): Product | undefined {
   return products.find((p) => p.handle === handle);

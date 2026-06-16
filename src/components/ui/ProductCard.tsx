@@ -23,7 +23,7 @@ export default function ProductCard({
       className="group flex flex-col"
     >
       {/* Image container */}
-      <div className="relative aspect-[3/4] overflow-hidden rounded-xl bg-muted">
+      <div className="relative aspect-3/4 overflow-hidden rounded-xl bg-muted">
         {primaryImage ? (
           <>
             <img

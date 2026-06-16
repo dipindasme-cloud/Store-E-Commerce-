@@ -4,6 +4,7 @@ import "./globals.css";
 
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import { CartProvider } from "@/context/CartContext";
 
 // Configure Google Font and map it to a CSS variable
 const interFont = Inter({
@@ -38,11 +39,13 @@ export default function RootLayout({
   return (
     <html lang="en" className={interFont.variable}>
       <body className="font-sans antialiased bg-background text-foreground flex min-h-screen flex-col">
-        <Navbar />
+        <CartProvider>
+          <Navbar />
 
-        <main>{children}</main>
+          <main>{children}</main>
 
-        <Footer />
+          <Footer />
+        </CartProvider>
       </body>
     </html>
   );

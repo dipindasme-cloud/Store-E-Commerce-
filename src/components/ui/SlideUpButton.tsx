@@ -17,7 +17,7 @@ export default function SlideUpButton({
   return (
     <Link
       href={href}
-      className={`group relative inline-flex min-h-11 items-center justify-center overflow-hidden rounded-md bg-white px-8 py-3 text-[0.875rem] font-semibold uppercase tracking-[0.12em] text-[#0a0a0a] transition-colors duration-300 hover:bg-[#cb9393] ${className}`}
+      className={`group relative inline-flex min-h-11 items-center justify-center overflow-hidden rounded-md bg-white px-8 py-3 text-[0.875rem] font-semibold uppercase tracking-[0.12em] text-[#0a0a0a] transition-colors duration-300 hover:bg-white ${className}`}
       style={{ borderRadius: "0.4rem" }}
     >
       <span className="relative block h-[1.2em] overflow-hidden">
